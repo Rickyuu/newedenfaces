@@ -22,4 +22,5 @@ export interface IReportItem {
   fullName: string;
   fileCovInfo: IFileCovInfo;
   codeChurnCovInfo: ICodeChurnCovInfo;
+  testRemote: string;
 }
